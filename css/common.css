@@ -1,12 +1,25 @@
+/* color background */
 body {
-    background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
+    background-image: linear-gradient(to right top, #b68ecd, #b3a0da, #b3b2e4, #b7c2eb, #c0d1ef, #bed2ef, #bcd4ee, #bad5ed, #a6cae8, #92bfe3, #7db4de, #65a9d9);
 }
 
+/* Footer */
+.prettyFooter {
+	background-color: rgb(134, 134, 190);
+	padding: 14px 14px;
+	color: #2d324e;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+/* Menu */
 #menu {
-	color: #FFF;
-	height: 50px;
+	height: 60px;
 	padding-left: 18px;
     width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 3;
 }
 
 #menu ul, #menu li {
@@ -27,11 +40,11 @@ body {
 
 #menu a {
 	display: block;
-	line-height: 45px;
-	padding: 0 14px;
 	text-decoration: none;
-	color: #FFFFFF;
+	padding: 14px 14px;
+	color: #2d324e;
 	font-size: 16px;
+	font-weight: 600;
 }
 
 #menu a.dropdown-arrow:after {
@@ -98,17 +111,21 @@ body {
 }
 
 .menuBack {
-    background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
+	background-color: rgb(134, 134, 190);
 }
 
+/* logo linkedin */
 .logoDin {
-	width: 40px;
+	width: 35px;
 }
 
+/* logo git */
 .logoGit {
-	width:40px;
+	width:35px;
 }
+/* fin Menu */
 
+/* responsive */
 @media screen and (max-width: 885px){
 	#menu {
 		position:relative
