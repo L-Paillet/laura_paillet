@@ -1,0 +1,132 @@
+.profil {
+    height: auto;
+    padding: 12vh 50px 0 50px;
+    width: 100%;
+}
+
+.textPresentation {
+    width: auto;
+    margin: 20px 0;
+}
+
+.competenceTitre {
+    padding: 30px 0;
+}
+
+/* CSS PROGRESS BAR */
+.progress{
+    height: 25px;
+    background: #eee;
+    border-radius: 20px;
+    overflow: visible;
+    line-height: 15px;
+    margin: 20px 0 40px 0;
+}
+.progress .progress-bar{
+    position: relative;
+    animation: animate-positive 2s;
+}
+.progress-bar-html {
+    background-color: #fe4b1d !important;
+}
+
+.progress-bar-css {
+    background-color: #004be7 !important;
+}
+
+.progress-bar-angular {
+    background-color: #b52e31 !important;
+}
+.progress-bar-react {
+    background-color: #48d5f9 !important;
+}
+.progress-bar-js {
+    background-color: #e3c235 !important;
+}
+.progress-bar-python {
+    background-color: #376f9d !important;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    }
+    
+.creativeName { grid-area: 1 / 1 / 2 / 2; }
+.veryCreative { grid-area: 1 / 2 / 2 / 3; }
+
+.outcastParent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    max-width: 50%;
+    }
+    
+.oucastChild { grid-area: 1 / 1 / 2 / 2; }
+
+/* img progress bar */
+.imgIcon {
+    width: 30px;
+    margin-left: 10px;
+}
+.imgJS {
+    width: 8%;
+}
+.imgReact {
+    width: 40px;
+    margin-left: 10px;
+}
+
+/* nom competence */
+.titreCompetence {
+    margin: 0 40px 0 0;
+}
+
+
+/* .progress .progress-value{
+    position: absolute;
+    top: -19px;
+    right: 16px;
+    font-size: 13px;
+    color: #fff;
+    padding: 3px 7px;
+    background: #191919;
+    border: 1px solid #000;
+}
+.progress .progress-value:after{
+    content: "";
+    border-top: 10px solid #191919;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: -6px;
+    left: 25%;
+} */
+
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+}
+@keyframes animate-positive{
+    0% { width: 0%; }
+}
+
+/* .nameClass {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #42bb36;
+    position: relative;
+} */
+
+/* .nameClass::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #bb3636;
+} */
+

@@ -125,6 +125,11 @@ body {
 }
 /* fin Menu */
 
+
+h1, h2, h3, p, a {
+	font-family: arial;
+}
+
 /* responsive */
 @media screen and (max-width: 885px){
 	#menu {

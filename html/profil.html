@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- CSS -->
         <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/profil.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <!-- Javascript -->
         <link rel="stylesheet" href="../js/common.js">
@@ -13,27 +14,18 @@
     </head>
     
     <body>
+        <!-- bar menu -->
         <nav id='menu' class="menuBack menuScroll">
             <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
             <ul>
                 <li><a href='../html/acceuil.html'>Acceuil</a></li>
                 <li><a href='../html/profil.html'>Mon profil</a></li>
                 <li><a href='../html/bts.html'>BTS SIO</a></li>
-                <li><a class='dropdown-arrow' href='../html/veille.html'>Veilles</a>
-                <ul class='sub-menus'>
-                    <!-- <li><a href=''></a></li> -->
-                    <li><a href=''></a></li>
-                </ul>
-                </li>
-                <li><a class='dropdown-arrow' href='../html/projet.html'>Projets</a>
-                <ul class='sub-menus'>
-                    <li><a href=''></a></li>
-                    <li><a href=''></a></li>
-                </ul>
-                </li>
-                <li><a href='../html/apprentissage.html'>Apprentissage</a></li>
+                <li><a href='../html/veille.html'>Veilles</a>
+                <li><a href='../html/projet.html'>Projet</a>
                 <li><a href='../html/tableau.html'>Tableau de synthèse</a></li>
             </ul>
+
             <div class="d-flex justify-content-end">
                 <a href="https://github.com/L-Paillet" crossorigin="anonymous">
                     <img src="../asset/github.png" alt="portfolio-github" srcset="" class="logoGit">
@@ -43,7 +35,115 @@
                 </a>
             </div>
         </nav>
-        <div>
+        <!-- profil -->
+        <div class="profil">
+                <h1 class="d-flex justify-content-center">Présentation</h1>
+                <p class="d-flex justify-content-center textPresentation">
+                    Bienvenu sur mon portefolio, je m'appelle Laura Paillet et je suis étudiante à l'école IPSSI à SQY, en deuxième année 
+                    de BTS SIO option Solutions Logicielles et Applications Métier (SLAM). 
+                    <br>
+                    Je fais ma deuxième année de BTS en alternance dans l'ESN Karoil, spécialisé dans les nouvelles technologies et l'informatique, 
+                    et ai déjà participé à quelques projets au sein de l'entreprise.
+                </p>
+                <h2 class="d-flex justify-content-center">Mon projet professionnel:</h2>
+                <p class="d-flex justify-content-center textPresentation">
+                    J'aimerais l'année prochaine, continuais mes études sur un Bachelor Développement fullstack & DevOps et 
+                    le faire en alternance afin de continuer à acquérir de l'expérience. 
+                    <br>
+                    Par la suite j'aimerais continuer mes études sur un mastère dev, data et IA.
+                </p>
+
+                <h2 class="d-flex justify-content-center competenceTitre">Mes compétences:</h2>
+
+                <!-- Progress Bar -->
+                <div class="parent">
+                    <!-- HTML / CSS -->
+                    <div class="creativeName"> 
+                        <div class="container">
+                            <!-- HTML -->
+                            <div class="d-flex flex-row justify-content-between">
+                                <img class="imgIcon" src="../asset/HTMLicon.png" alt="compétences html">
+                                <p class="titreCompetence">HTML</p>
+                            </div>
+                                
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-html progress-bar-striped" style="width: 95%;">
+                                    <div class="progress-value">95%</div>
+                                </div>
+                            </div>
+
+                            <!-- CSS -->
+                            <div class="d-flex flex-row justify-content-between">
+                                <img class="imgIcon" src="../asset/CSSicon.png" alt="compétences css">
+                                <p class="titreCompetence">CSS</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-css progress-bar-striped" style="width: 95%;">
+                                    <div class="progress-value">95%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ANGULAR / REACT -->
+                    <div class="veryCreative"> 
+                        <div class="container">
+                            <!-- ANGULAR -->
+                                <div class="d-flex flex-row justify-content-between">
+                                    <img class="imgIcon" src="../asset/ANGULARicon.png" alt="compétences angular">
+                                    <p class="titreCompetence">Angular</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-angular progress-bar-striped" style="width: 85%;">
+                                        <div class="progress-value">85%</div>
+                                    </div>
+                                </div>
+                        
+                                <!-- REACT -->
+                                <div class="d-flex flex-row justify-content-between">
+                                    <img class="imgReact" src="../asset/Reacticon.webp" alt="compétences react">
+                                    <p class="titreCompetence">React</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-react progress-bar-striped" style="width: 80%;">
+                                        <div class="progress-value">80%</div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="outcastParent">
+                    <!-- PYTHON / JS -->
+                    <div class="oucastChild"> 
+                        <div class="container">
+                            <!-- JAVASCRIPT -->
+                            <div class="d-flex flex-row justify-content-between">
+                                <img class="imgJS" src="../asset/JSicon.png" alt="compétences Javascript">
+                                <p class="titreCompetence">JS</p>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-js progress-bar-striped" style="width: 75%;">
+                                    <div class="progress-value">75%</div>
+                                </div>
+                            </div>
+                            
+                            <!-- PYTHON -->
+                           <div class="d-flex flex-row justify-content-between">
+                            <img class="imgIcon" src="../asset/PYTHONicon.png" alt="compétences python">
+                            <p class="titreCompetence">Python</p>
+                           </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-python progress-bar-striped" style="width: 75%;">
+                                    <div class="progress-value">75%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            
         </div>
     </body>
 
