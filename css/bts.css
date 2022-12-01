@@ -8,26 +8,38 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 50px;
-    grid-row-gap: 20pxpx;
+    grid-row-gap: 20px;
     }
     
-.btsText { grid-area: 1 / 1 / 2 / 3; }
+.btsText { 
+    grid-area: 1 / 1 / 2 / 3;
+ }
 
-.optionSLAM { grid-area: 2 / 1 / 3 / 2; }
+.optionSLAM { 
+    grid-area: 2 / 1 / 3 / 2; 
+    padding: 0 50px;
+}
 
-.optionSISR { grid-area: 2 / 2 / 3 / 3; }
+.optionSISR { 
+    grid-area: 2 / 2 / 3 / 3;
+    padding: 0 50px;
+ }
 
-hr {
+/* hr {
     max-width: 20%;
     border-top: 4px solid !important;
     color: aquamarine !important;
     display: block;
-}
+} */
 
 .textChild {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0 48vh;
+}
+.ajustementText {
+    margin-bottom: 30px;
 }
 
 .prettyLine {
