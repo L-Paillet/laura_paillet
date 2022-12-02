@@ -1,5 +1,57 @@
 .veille {
     height: auto;
-    padding: 12vh 20vh 0 20vh;
+    padding: 12vh 20vh 13vh 20vh;
     width: 100%;
+}
+
+.veilleGlass {
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 30px 60px;
+}
+
+.adjust {
+    margin-top: 20px;
+}
+
+.gridOutil {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    margin-top: 50px;
+    }
+    
+.outil1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    align-self: center;
+    justify-self: center;
+}
+.outil2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    align-self: center;
+    justify-self: center;
+}
+
+.nameClass {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #4b6a6f;
+    position: relative;
+} 
+
+.nameClass::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #4b6a6f;
+    border: 2px solid #607482;
 }

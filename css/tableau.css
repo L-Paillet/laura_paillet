@@ -3,3 +3,8 @@
     padding: 12vh 20vh 0 20vh;
     width: 100%;
 }
+
+.pdfClass {
+    width: 90%;
+    height: 100vh;
+}
