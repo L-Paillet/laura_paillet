@@ -18,6 +18,10 @@
     margin-top: 20px;
 }
 
+.adjustText {
+    margin-top: 15px;
+}
+
 .gridOutil {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
