@@ -55,6 +55,9 @@
     font-weight: 500; 
     text-decoration: none;
 }
+.linkButton:hover {
+  color: #4a4d73;
+}
 
 @media screen and (max-width: 685px) {
    .btnShortcut {
