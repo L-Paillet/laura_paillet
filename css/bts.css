@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* padding: 0 48vh; */
+    padding: 0 48vh;
 }
 
 .ajustementText {
@@ -52,4 +52,13 @@
     border: 1px solid rgba(255, 255, 255, 0.15);
     max-width: 100%;
     padding: 20px;
+}
+
+@media screen and (max-width: 685px) {
+    .textChild {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
 }
