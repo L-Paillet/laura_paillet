@@ -6,7 +6,8 @@ body {
 /* Footer */
 .prettyFooter {
 	/* background-color: rgb(134, 134, 190); */
-	background-color: #978bc5;
+	/* background-color: #978bc5; */
+	background-color: #8bc5b5;
 	padding: 14px 14px;
 	color: #2d324e;
 	font-size: 16px;
@@ -113,7 +114,8 @@ body {
 }
 
 .menuBack {
-	background-color: #978bc5;
+	/* background-color: #978bc5; */
+	background-color: #8bc5b5;
 }
 
 /* logo linkedin */
