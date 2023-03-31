@@ -1,6 +1,6 @@
 /* color background */
 body {
-    background-image: linear-gradient(to right top, #b68ecd, #b3a0da, #b3b2e4, #b7c2eb, #c0d1ef, #bed2ef, #bcd4ee, #bad5ed, #a6cae8, #92bfe3, #7db4de, #65a9d9);
+	background-color: #f6f9fc !important;
 }
 
 /* Footer */
