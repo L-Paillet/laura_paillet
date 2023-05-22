@@ -13,6 +13,14 @@
     border: 1px solid rgba(255, 255, 255, 0.15);
     padding: 30px 60px;
 }
+.iconLogo {
+    width: 10rem;
+}
+
+.newsVeille {
+    /* width: 100%; */
+    margin: 10px 20px;
+}
 
 .adjust {
     margin-top: 20px;
